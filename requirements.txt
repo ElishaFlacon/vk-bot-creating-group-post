@@ -1,0 +1,6 @@
+Pillow==8.4.0
+
+pyowm==3.3.0
+vk-api==11.9.7
+
+translate==3.6.1
