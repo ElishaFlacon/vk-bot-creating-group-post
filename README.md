@@ -1,15 +1,4 @@
-# vk-weather-bot
-# first step: install python modules
-# pip install translate
-# pip install pyowm
-# pip install vk-api
-# pip install Pillow
-# second step: edit code
-# create account in openweathermap.org and add your OWM key on code
-# create account in vk.com and add your loggin and password on code
-# copy id person account or group in vk and add their on code
-# last step: run code, well done!
-
+# Бот для ВК умеет постить информацию о погоде в группу ВК
 
 Скачиваем проект к себе на компьютер Устанавливаем необходимые модули:
 
@@ -27,6 +16,14 @@
 Регистрируемся на сайте OWM и получаем ключ (https://openweathermap.org)
 
 Добавте полученный ключ в код
+
+Регистрируемся в ВК (https://vk.com/)
+
+Добавте логин и пароль в код (НЕ ИСПОЛЬЗУЕМ 2х ФАКТОРНУЮ АВТОРИЗАЦИЮ)
+
+Создаем группу в ВК
+
+Добавте айди группы и аккаунта в код
 
 В коде измените город для которого хотите получать прогноз погоды
 
