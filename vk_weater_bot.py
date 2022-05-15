@@ -26,8 +26,8 @@ class weath():
     # записываем показания облочности в weater_detail
     weater_detail = str(w.detailed_status)
     # перевод weater_detail
-    tr = Translator(from_lang="en", to_lang="ru")
-    tr_weater_detail = tr.translate(weater_detail)
+    # tr = Translator(from_lang="en", to_lang="ru")
+    # tr_weater_detail = tr.translate(weater_detail)
 
     # достаем из словоря с температурами основную температуру
     # также переводим их в строку и целое число чтобы было удобно использоваь
