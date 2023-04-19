@@ -138,8 +138,8 @@ def vk_bot():
     attachment = ",".join('photo{owner_id}_{id}'.format(**item)
                           for item in ready_photo)
     vk_session.method("wall.post", {
-        'owner_id': 'id group(first - (-123)) or id person (123)',
-        'message': "Погода",
+        'owner_id': 'ID_GROUP OR ID_PROFILE',
+        'message': "YOUR_MESSAGE",
         'attachment': attachment,
     })
 
