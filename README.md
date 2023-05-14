@@ -12,13 +12,13 @@
 
 
 <h2>
-  🛠️ Библиотеки для работы бота:
+  🛠️ Инструменты, которые использовались при разработке бота:
 </h2>
 
- - vk-api==11.9.7
-- pyowm==3.3.0
-- Pillow==8.4.0
-- translate==3.6.1
+- Python
+- Vk-Api
+- Pillow
+- PyOWM
 
 
 
@@ -30,11 +30,11 @@
   🚀 Зпуск приложения:
 </h2>
 
-- git clone https://github.com/ElishaFlacon/vk-bot-creating-group-post.git
-- cd vk-bot-creating-group-post
-- python -m venv <venv_name>
-- source <venv_name>/Scripts/activate (linux) or <venv_name>/Scripts/activate (windows)
-- pip install -r ./requirements.txt
+- `git clone https://github.com/ElishaFlacon/vk-bot-creating-group-post.git`
+- `cd vk-bot-creating-group-post`
+- `python -m venv <venv_name>`
+- `<venv_name>/Scripts/activate` (windows) или `source <venv_name>/Scripts/activate` (linux)
+- `pip install -r ./requirements.txt`
 - регистрируемся на сайте OWM и получаем ключ (https://openweathermap.org)
 - добавте полученный ключ в код (10 строка)
 - регистрируемся в ВК и создаем группу (https://vk.com/)
@@ -44,7 +44,7 @@
 - в коде измените город для которого хотите получать прогноз погоды (14 строка), а так же сообщение в посте (142 строка)
 - по желанию можно включить функцию перевода описания погоды (28-29 строка) (у библиотеки ограниченное количество переводов)
 - изменяем остальной код под свои нужды
-- python main.py
+- `python main.py`
 <h3>
     Запускаем, не работет, ура! 🗿🚬
 </h3>
